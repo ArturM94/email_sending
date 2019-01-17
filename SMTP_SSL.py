@@ -2,6 +2,7 @@ import smtplib
 import ssl
 
 port = 465  # SSL
+# TODO Implement getpass
 password = input('Type your password and press Enter: ')
 
 # Secure SSL connection
